@@ -1,1 +1,289 @@
-/* место для вашего кода */
+body,
+button {
+  font-family: Raleway;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  width: 240px;
+  font-style: normal;
+  line-height: 25px;
+}
+
+header {
+  width: 100%;
+  height: 293px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 50px;
+  gap: 37px;
+}
+
+header:first-child>div {
+  margin-right: auto;
+}
+
+header:last-child>div {
+  margin-left: auto;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+  list-style: circle;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+header nav ul li:first-child {
+  list-style: none;
+}
+
+header .logo-container {
+  height: 105px;
+  width: 148px;
+}
+
+header .logo-container img {
+  height: 100%;
+}
+
+.cover {
+  width: 1100px;
+  height: 757px;
+  padding: 165px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/cover.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover .overlay-h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.cover .overlay-h2>h2 {
+  padding-bottom: 28px;
+}
+
+.cover .overlay-h2>h2:last-child {
+  padding-top: 9px;
+}
+
+.cover .overlay-h2 .first-word {
+  font-weight: 700px;
+  font-size: 100px;
+  line-height: 115px;
+  text-align: left;
+}
+
+.cover .overlay-h2 .second-word {
+  font-weight: 700px;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin-right: -0.3em;
+}
+
+.cover .overlay-h2 .third-word {
+  font-weight: 700px;
+  font-size: 100px;
+  line-height: 100px;
+  text-align: right;
+  margin-right: -0.3em;
+}
+
+.cover .description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 22px;
+}
+
+.cover .description .subline {
+  line-height: 28px;
+  word-spacing: 0.85em;
+  font-weight: 400;
+  text-align: left;
+  align-content: center;
+}
+
+.cover .description button {
+  height: 51px;
+  width: 256px;
+  font-size: 22px;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.lots {
+  display: flex;
+  flex-direction: column;
+  padding: 180px 24px 0px;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin: 25px 0px;
+}
+
+.blocks div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 0;
+  height: 600px;
+  padding: 50px 40px;
+  color: white;
+}
+
+.block-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/card-lot-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/card-lot-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/images/card-lot-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blocks a {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.blocks p {
+  font-size: 20px;
+}
+
+.lots h2 {
+  font-size: 40px;
+  padding-left: 40px;
+}
+
+.a-view-more {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 5px;
+}
+
+.about {
+  padding: 0px 24px;
+  margin-bottom: 180px;
+  margin-top: 125px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jopa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  padding: 0px 100px;
+  margin-top: 29px;
+  margin-left: 47px;
+}
+
+.jopa img {
+  width: 148px;
+  height: 114px;
+}
+
+.asd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 130px 0px 0px 72px;
+  gap: 26px;
+}
+
+.about h5 {
+  font-size: 40px;
+  padding-bottom: 75px;
+}
+
+.about p {
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 50px;
+}
+
+footer address {
+  line-height: 25px;
+  height: 98px;
+  width: 265px;
+}
+
+footer nav {
+  text-align: center;
+  padding-right: 23px;
+}
+
+footer nav ul {
+  list-style: none;
+  font-size: 18px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  width: 240px;
+}
+
+.social-media img {
+  width: 48px;
+  height: 48px;
+}
