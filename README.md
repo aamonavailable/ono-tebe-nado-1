@@ -1,1 +1,1 @@
-https://github.com/aamonavailable/ono-tebe-nado-1
+https://github.com/aamonavailable/ono-tebe-nado-fd
